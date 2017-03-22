@@ -1,0 +1,129 @@
+<rdf:RDF
+    
+    xmlns:wdrs="http://www.w3.org/2007/05/powder-s#"
+    
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    
+    xmlns:library="http://purl.org/library/"
+    
+    xmlns:genont="http://www.w3.org/2006/gen/ont#"
+    
+    xmlns:pto="http://www.productontology.org/id/"
+    
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    
+    xmlns:void="http://rdfs.org/ns/void#"
+    
+    xmlns:schema="http://schema.org/"
+    
+    xmlns:bgn="http://bibliograph.net/"
+    
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" >
+    <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/952647#PublicationEvent/chicago_field_museum_of_natural_history_1966">
+        <rdf:type rdf:resource="http://schema.org/PublicationEvent"/>
+        <schema:location rdf:resource="http://dbpedia.org/resource/Chicago"/>
+        <schema:organizer rdf:resource="http://experiment.worldcat.org/entity/work/data/1895928#Agent/field_museum_of_natural_history"/>
+        <schema:startDate>1966</schema:startDate>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.worldcat.org/title/-/oclc/952647">
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#ContentTypeGenericResource"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+        <schema:about rdf:resource="http://www.worldcat.org/oclc/952647"/>
+        <schema:dateModified>2017-01-19</schema:dateModified>
+        <void:inDataset rdf:resource="http://purl.oclc.org/dataset/WorldCat"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dbpedia.org/resource/Chicago">
+        <rdf:type rdf:resource="http://schema.org/Place"/>
+        <schema:name>Chicago</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/272469940">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:familyName>Tipton</schema:familyName>
+        <schema:givenName>Vernon J.</schema:givenName>
+        <schema:name>Vernon J. Tipton</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/1053134">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Parasites</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://dewey.info/class/591.55/">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1895928#Topic/parasitologia_animal">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Parasitologia Animal</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1895928#Topic/ectoparasitic_infestations">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Ectoparasitic Infestations</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1895928#Agent/field_museum_of_natural_history">
+        <rdf:type rdf:resource="http://bibliograph.net/Agent"/>
+        <schema:name>Field Museum of Natural History</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/817138">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:name xml:lang="en">Arthropod vectors</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.worldcat.org/oclc/654452338">
+        <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/952647"/>
+        <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+        <rdfs:label>Ectoparasites of Panama.</rdfs:label>
+        <schema:description>Online version:</schema:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/58247936">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:familyName>Wenzel</schema:familyName>
+        <schema:givenName>Rupert L.</schema:givenName>
+        <schema:name>Rupert L. Wenzel</schema:name>
+        <schema:birthDate>1915</schema:birthDate>
+        <schema:deathDate>2006,</schema:deathDate>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.worldcat.org/fast/1205585">
+        <rdf:type rdf:resource="http://schema.org/Place"/>
+        <schema:name>Panama.</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://id.loc.gov/vocabulary/countries/ilu">
+        <rdf:type rdf:resource="http://schema.org/Place"/>
+        <dcterms:identifier>ilu</dcterms:identifier>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1895928#Topic/arthropod_vectors_panama">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85008133"/>
+        <schema:name xml:lang="en">Arthropod vectors--Panama</schema:name>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.worldcat.org/oclc/952647">
+        <schema:bookFormat rdf:resource="http://bibliograph.net/PrintBook"/>
+        <library:placeOfPublication rdf:resource="http://dbpedia.org/resource/Chicago"/>
+        <library:placeOfPublication rdf:resource="http://id.loc.gov/vocabulary/countries/ilu"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/817138"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/1205585"/>
+        <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1895928#Topic/ectoparasitic_infestations"/>
+        <schema:inLanguage>en</schema:inLanguage>
+        <wdrs:describedby rdf:resource="http://www.worldcat.org/title/-/oclc/952647"/>
+        <library:oclcnum>952647</library:oclcnum>
+        <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1895928#Topic/arthropod_vectors_panama"/>
+        <schema:about rdf:resource="http://dewey.info/class/591.55/"/>
+        <schema:name xml:lang="en">Ectoparasites of Panama.</schema:name>
+        <schema:productID>952647</schema:productID>
+        <schema:editor rdf:resource="http://viaf.org/viaf/58247936"/>
+        <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1895928#Topic/parasitologia_animal"/>
+        <schema:datePublished>1966</schema:datePublished>
+        <schema:publisher rdf:resource="http://experiment.worldcat.org/entity/work/data/1895928#Agent/field_museum_of_natural_history"/>
+        <schema:about rdf:resource="http://experiment.worldcat.org/entity/work/data/1895928#Topic/parasites_panama"/>
+        <rdf:type rdf:resource="http://schema.org/CreativeWork"/>
+        <schema:publication rdf:resource="http://www.worldcat.org/title/-/oclc/952647#PublicationEvent/chicago_field_museum_of_natural_history_1966"/>
+        <schema:about rdf:resource="http://id.worldcat.org/fast/1053134"/>
+        <rdf:type rdf:resource="http://schema.org/Book"/>
+        <schema:exampleOfWork rdf:resource="http://worldcat.org/entity/work/id/1895928"/>
+        <schema:isSimilarTo rdf:resource="http://www.worldcat.org/oclc/654452338"/>
+        <schema:editor rdf:resource="http://viaf.org/viaf/272469940"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://experiment.worldcat.org/entity/work/data/1895928#Topic/parasites_panama">
+        <rdf:type rdf:resource="http://schema.org/Intangible"/>
+        <schema:hasPart rdf:resource="http://id.loc.gov/authorities/subjects/sh85097907"/>
+        <schema:name xml:lang="en">Parasites--Panama</schema:name>
+    </rdf:Description>
+</rdf:RDF>
